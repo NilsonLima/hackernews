@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Uncomment the following line if you do not want to track your personal NewsAPI configuration file
+# News.json
