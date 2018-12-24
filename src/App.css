@@ -1,3 +1,16 @@
-.App {
-  text-align: center;
+.app {
+  padding: 0px;
+}
+
+.app-articles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  grid-gap: 2rem; 
+  grid-auto-flow: dense;
+  padding: 20px;
+}
+
+.app-feed {
+  padding-left: 50px;
+  padding-right: 50px;
 }
