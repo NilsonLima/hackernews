@@ -23,14 +23,14 @@ const Article = (props) => {
       href={url}
       rel="noopener noreferrer"
       target="_blank"
-      className="article-wrapper"
+      className="wrapper"
     >
       <img
         src={urlToImage}
-        className="article-image"
+        className="image"
         alt={description}
       />
-      <div className="article-body">
+      <div className="body">
         <span id="title">
           {title.substr(0, title.lastIndexOf('-'))}
         </span>
