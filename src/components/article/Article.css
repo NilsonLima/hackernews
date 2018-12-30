@@ -51,6 +51,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
+  background-color: white;
 }
 
 .wrapper:hover > .body #title {
