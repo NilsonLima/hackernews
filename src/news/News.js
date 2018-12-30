@@ -15,9 +15,9 @@ const fetchWrapper = (url) => {
     .catch(err => Promise.reject(err));
 };
 
-export const fetchTopHeadlinesByCategory = (category) => {
+export const fetchTopHeadlinesByCategory = (category, page) => {
   const url = `${TOP_HEADLINES_URL}?country=${COUNTRY}&apiKey=${API_KEY}`
-    + `&pageSize=${PAGE_SIZE}&category=${category}`;
+    + `&pageSize=${PAGE_SIZE}&category=${category}&page=${page}`;
   return fetchWrapper(url);
 };
 
