@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  width: 30rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container input {
+  flex: 1;
+  border: 0;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input:focus {
+  outline-width: 0;
+}
+
+.container button {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
